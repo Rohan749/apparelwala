@@ -1,0 +1,244 @@
+.top__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  height: 60px;
+  z-index: 999;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo__apparel {
+  width: 5rem;
+  height: 5rem;
+}
+
+.logoandcompany {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.logoandcompany > nav {
+  font-family: "unbounded";
+  font-size: 20px;
+  margin-left: -10px;
+}
+
+.nav__options {
+  display: flex;
+  width: 45rem;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 26rem;
+}
+
+._button {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.hamburger__option {
+  position: absolute;
+  height: 100vh;
+  width:100vw;
+  background: #2b2539;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.hamburger__body {
+  margin-top: 7.4rem;
+}
+
+hr {
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.hamburger__links {
+  margin: 2rem;
+  color: white;
+  font-family: "Plus Jakarta Sans";
+}
+
+.__button {
+  width: 7rem;
+  height: 2rem;
+  background-color: white;
+  border: none;
+  margin: 5px;
+  color: rgb(53, 53, 53);
+  font-weight: bolder;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.__button:hover {
+  transition-duration: 0.3s;
+  background-color:#31d2ca;
+  color: white;
+}
+
+.hamburger__footer {
+  position: absolute;
+  bottom: 2rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.hamburger_icon {
+  display: none;
+}
+
+@media only screen and (min-width: 220px) and (max-width: 480px) {
+  .top__navbar {
+    padding: 1rem;
+  }
+  .logo__apparel {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .logoandcompany > nav {
+    font-size: 15px;
+  }
+
+  .nav__options {
+    display: none;
+  }
+
+  .hamburger_icon {
+    display: block;
+  }
+
+  .hamburger__option {
+    height: 21rem;
+    z-index: 9;
+  }
+  
+  .hamburger__body {
+    margin-top: 5.5rem;
+  }
+
+  .hamburger__links {
+    margin: 1.3rem 1rem 1rem 2rem;
+    font-size: 12px;
+    color: white;
+    font-family: "Plus Jakarta Sans";
+  }
+
+  .__button {
+    font-size: 12px;
+    width: 6.5rem;
+  height: 1.7rem;
+  }
+
+
+} 
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .top__navbar {
+    padding: 1rem;
+  }
+  .logo__apparel {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .logoandcompany > nav {
+    font-size: 15px;
+  }
+
+  .nav__options {
+    display: none;
+  }
+
+  .hamburger_icon {
+    display: block;
+  }
+
+  .hamburger__option {
+    height: 26rem;
+  }
+  
+  .hamburger__body {
+    margin-top: 5.5rem;
+  }
+
+  .hamburger__links {
+    margin: 1.3rem 1rem 1rem 2rem;
+    font-size: 15px;
+    color: white;
+    font-family: "Plus Jakarta Sans";
+  }
+
+  .__button {
+    font-size: 12px;
+    width: 6.5rem;
+    height: 1.7rem;
+  }
+
+} 
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .top__navbar {
+    padding: 1rem;
+  }
+  .logo__apparel {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .logoandcompany > nav {
+    font-size: 15px;
+  }
+
+  .nav__options {
+    display: none;
+  }
+
+  .hamburger_icon {
+    display: block;
+  }
+
+  .hamburger__option {
+    height: 23rem;
+  }
+  
+  .hamburger__body {
+    margin-top: 5.5rem;
+  }
+
+  .hamburger__links {
+    margin: 1.3rem 1rem 1rem 2rem;
+    font-size: 15px;
+    color: white;
+    font-family: "Plus Jakarta Sans";
+  }
+
+  .__button {
+    font-size: 12px;
+    width: 6.5rem;
+    height: 1.7rem;
+  }
+}

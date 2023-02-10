@@ -1,0 +1,361 @@
+.features__body {
+  min-height: 100vh;
+  width: 100vw;
+  height: fit-content;
+}
+
+.features__heading {
+  color: black;
+  text-align: center;
+  padding: 3rem;
+}
+
+.features__para {
+  color: black;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.features__container {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+
+}
+
+.features__container_left {
+  background: #251d37;
+  border-radius: 24px;
+  height: 25rem;
+  width: 30rem;
+  margin: 6rem;
+  display: flex;
+}
+
+.features__container_right {
+  height: 25rem;
+  width: 30rem;
+  margin: 6rem;
+}
+
+.features__profile {
+  width: 240px;
+  height: 260px;
+  margin-top: -4rem;
+}
+
+.features__analytics {
+    height: 240px;
+    margin-left: 3rem; 
+}
+
+.features__refer {
+    height: 150px;
+    width: 180px;
+    margin-left: -33rem;
+    margin-top: 14.7rem;
+}
+
+.features__follow {
+    height: 110px;
+    width: 110px;
+    margin-top: 15rem;
+    margin-left: 6rem;
+}
+
+.features__rightimg {
+    height: 20rem;
+}
+
+
+.backbody {
+  height: fit-content;
+  width: 100vw;
+}
+
+.backbody__heading {
+  height: 8rem;
+  font-size: 2rem;
+  background: rgb(43, 37, 57);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.backbody__body {
+  height: 33rem;
+  background-image: url("../Images/bg.png");
+  background-position-y: bottom;
+  background-size: cover;
+  background-size: 210%;
+}
+
+
+
+@media only screen and (min-width: 220px) and (max-width: 480px) {
+
+  .features__heading {
+    padding: 2rem;
+    font-size: 25px;
+  }
+  
+  .features__para {
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .features__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features__container_left {
+    border-radius: 17px;
+    height: 19rem;
+    width: 20rem;
+    margin-bottom: -2rem;
+  }
+
+  .features__profile {
+    width: 150px;
+    height: 190px;
+    margin-top: -4rem;
+  }
+  
+  .features__analytics {
+    height: 150px;
+    margin-left: 1rem; 
+}
+
+.features__refer {
+    height: 150px;
+    width: 130px;
+    margin-left: -19rem;
+    margin-top: 9rem;
+}
+
+.features__follow {
+    height: 90px;
+    width: 90px;
+    margin-top: 12rem;
+    margin-left: 3rem;
+}
+.features__container_right {
+  display: flex;
+  justify-content: center;
+  height: 19rem;
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+
+.features__rightimg {
+    height: 15rem;
+}
+
+.backbody {
+  height: fit-content;
+}
+
+.backbody__heading {
+  background: rgb(43, 37, 57);
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  word-spacing: 1px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.backbody__body {
+  height: 12rem;
+  margin-top: -3rem;
+  background-image: url("../Images/bg.png");
+  background-position-y: bottom;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+  .features__heading {
+    padding: 2rem;
+    font-size: 28px;
+  }
+  
+  .features__para {
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  
+  .features__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features__container_left {
+    border-radius: 17px;
+    height: 19rem;
+    width: 20rem;
+    margin-bottom: -2rem;
+  }
+
+  .features__profile {
+    width: 150px;
+    height: 190px;
+    margin-top: -4rem;
+  }
+  
+  .features__analytics {
+    height: 150px;
+    margin-left: 1rem; 
+}
+
+.features__refer {
+    height: 150px;
+    width: 130px;
+    margin-left: -19rem;
+    margin-top: 9rem;
+}
+
+.features__follow {
+    height: 90px;
+    width: 90px;
+    margin-top: 12rem;
+    margin-left: 3rem;
+}
+.features__container_right {
+  display: flex;
+  justify-content: center;
+  height: 19rem;
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+
+.features__rightimg {
+    height: 15rem;
+}
+
+.backbody {
+  height: fit-content;
+}
+
+.backbody__heading {
+  background: rgb(43, 37, 57);
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  word-spacing: 1px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.backbody__body {
+  height: 12rem;
+  background-image: url("../Images/bg.png");
+  background-position-y: bottom;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-size: 220%;
+}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+
+  .features__heading {
+    padding: 2rem;
+    font-size: 28px;
+  }
+  
+  .features__para {
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  
+  .features__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features__container_left {
+    border-radius: 17px;
+    height: 24rem;
+    width: 25rem;
+    margin-bottom: -2rem;
+  }
+
+  .features__profile {
+    width: 190px;
+    height: 230px;
+    margin-top: -4rem;
+  }
+  
+  .features__analytics {
+    height: 190px;
+    margin-left: 1rem; 
+}
+
+.features__refer {
+    height: 200px;
+    width: 150px;
+    margin-left: -24rem;
+    margin-top: 12.4rem;
+}
+
+.features__follow {
+    height: 110px;
+    width: 110px;
+    margin-top: 15rem;
+    margin-left: 5.5rem;
+}
+.features__container_right {
+  display: flex;
+  justify-content: center;
+  height: 19rem;
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+
+.features__rightimg {
+    height: 15rem;
+}
+
+.backbody {
+  height: fit-content;
+}
+
+.backbody__heading {
+  background: rgb(43, 37, 57);
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  word-spacing: 1px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.backbody__body {
+  height: 12rem;
+  background-image: url("../Images/bg.png");
+  background-position-y: bottom;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+}

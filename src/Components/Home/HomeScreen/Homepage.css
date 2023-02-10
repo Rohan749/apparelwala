@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@600&display=swap");
+
+* {
+  font-family: "Plus Jakarta Sans";
+  color: white;
+}
+
+.tilted__background {
+  position: absolute;
+  height: 55rem;
+  margin-top: -10rem;
+  padding-top: 5rem;
+  width: 100%;
+  transform-origin: left top;
+  transform: skewY(-20deg);
+  z-index: -999;
+  background: linear-gradient(250deg, #3dfff5, #4b0365);
+  background-blend-mode: screen;
+}
+
+.homepage__bgimage {
+  position: absolute;
+}
+
+._heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.description {
+  width: 55rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 3rem;
+  z-index: -9;
+}
+
+.desc {
+  margin-top: 2rem;
+}
+
+.para {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.login_btn {
+  background-color: transparent;
+  border: none;
+  width: 140px;
+  height: 55px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-right: 5px;
+  transition-duration: 0.3s;
+}
+
+.login_btn:hover {
+  transition-duration: 0.3s;
+  background-color: rgb(255, 255, 255, 0.3);
+}
+
+.signup_btn {
+  width: 140px;
+  height: 55px;
+  background: #2b2539;
+  border-radius: 16px;
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.signup_btn > a {
+  text-decoration: none;
+}
+
+.desc__btn {
+  width: 294px;
+  height: 60px;
+  background: #2b2539;
+  border-radius: 16px;
+  border: none;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.display_img {
+  background-image: url("../Images/Mask\ group\ 2.jpg");
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+  left: 220px;
+  margin-top: 4rem;
+  border-radius: 48px;
+}
+
+
+@media only screen and (min-width: 220px) and (max-width: 480px) {
+
+
+  .tilted__background {
+    height: 30.5rem;
+  }
+
+  .description {
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  ._heading {
+    font-size: 22px;
+    font-weight: bolder;
+    line-height: 35px;
+    word-spacing: 1px;
+  }
+
+  .para {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    word-spacing: 1px;
+  }
+
+  .desc__btn {
+    width: 170px;
+    height: 40px;
+    background: #322b42;
+    border-radius: 10px;
+    border: none;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .display_img {
+    background-image: url("../Images/Mask\ group\ 2.jpg");
+    width: 280px;
+    height: 170px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 28px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .tilted__background {
+    height: 35rem;
+  }
+
+  .description {
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  ._heading {
+    font-size: 28px;
+    font-weight: bolder;
+    line-height: 35px;
+    word-spacing: 1px;
+  }
+
+  .para {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    word-spacing: 2px;
+  }
+
+  .desc__btn {
+    width: 180px;
+    height: 50px;
+    background: #322b42;
+    border-radius: 10px;
+    border: none;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .display_img {
+    width: 380px;
+    height: 230px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 28px;
+  }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .tilted__background {
+    height: 37rem;
+  }
+
+  .description {
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  ._heading {
+    font-size: 34px;
+    font-weight: bolder;
+    line-height: 35px;
+    word-spacing: 1px;
+  }
+
+  .para {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    word-spacing: 2px;
+  }
+
+  .desc__btn {
+    width: 180px;
+    height: 40px;
+    background: #322b42;
+    border-radius: 10px;
+    border: none;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .display_img {
+    width: 34rem;
+    height: 21rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 30px;
+  }
+
+}

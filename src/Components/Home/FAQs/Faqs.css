@@ -1,0 +1,16 @@
+.faq__body {
+   display: flex;
+   justify-content: center;
+}
+
+.faqbtn {
+  background-color: blue;
+  border: none;
+  width: 14rem;
+  cursor: pointer;
+  height: 4rem;
+  background: #2b2539;
+  border-radius: 10px;
+  font-size: 20px;
+
+}

@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.mobilePage__body {
+  height: fit-content;
+  width: 100vw;
+}
+
+.mobilePage__heading {
+  color: rgb(25, 25, 25);
+  text-align: center;
+  margin: 4rem;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.mobilePage__content {
+  display: flex;
+  height: 80vh;
+  height: fit-content;
+  justify-content: center;
+}
+
+.mobilePage__left {
+  width: 35rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.mobilePage__title {
+  color: #2b2539;
+  width: 35rem;
+  margin: 1.5rem;
+}
+
+.mobilePage__para {
+  margin: 0.6rem 4rem 0rem 2rem;
+  font-size: 17px;
+  color: #2b2539;
+}
+
+.mobilePage__right {
+  background: linear-gradient(200deg, #3dfff5, #4b0365);
+  background-blend-mode: screen;
+  width: 35rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.mobilePage__btn {
+  display: flex;
+}
+
+.appStore__download {
+  width: 125px;
+  height: 41.9px;
+  background-image: url("../Images/appStore.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 3px;
+  margin: 2rem 0rem 0rem 2rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.playStore__download {
+  width: 125px;
+  height: 41.9px;
+  background-image: url("../Images/playstore.svg");
+  background-size: contain;
+  background-position: center;
+  border: none;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  margin: 2rem 0rem 0rem 2rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.mobilePage__mobile {
+  width: 23rem;
+  height: 29rem;
+  margin: -2rem;
+}
+
+.mobilePage__footer {
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  background: #2b2539;
+}
+
+.mobile__footercontents {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_numbers {
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Poppins";
+}
+
+.footer_types {
+  color: rgba(0, 193, 255, 1);
+  font-family: "Poppins";
+}
+
+@media only screen and (min-width: 220px) and (max-width: 481px) {
+
+.mobilePage__heading {
+  color: rgb(25, 25, 25);
+  text-align: center;
+  margin: 0.8rem;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.mobilePage__content {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 50vh;
+  height: fit-content;
+  justify-content: center;
+}
+
+.mobilePage__left {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mobilePage__title {
+  color: #2b2539;
+  width: 18rem;
+  font-size: 18px;
+  margin: 0rem 0rem 1rem 0rem;
+
+}
+
+.mobilePage__para {
+  margin: 0.6rem 4rem 0rem 2rem;
+  font-size: 12px;
+  color: #2b2539;
+  margin: 0rem;
+}
+
+.mobilePage__right {
+  width: 18rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.mobilePage__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appStore__download {
+  width: 117px;
+  height: 37px;
+  background-image: url("../Images/appStore.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 3px;
+  margin: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.playStore__download {
+  width: 120px;
+  height: 38px;
+  background-image: url("../Images/playstore.svg");
+  background-size: contain;
+  background-position: center;
+  border: none;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  margin: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.mobilePage__mobile {
+  width: 13rem;
+  height: 20rem;
+  margin: -2rem;
+}
+
+.mobilePage__footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  background: #2b2539;
+}
+
+.mobile__footercontents {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_numbers {
+  font-size: 12px;
+  font-weight: 900;
+  font-family: "Poppins";
+}
+
+.footer_types {
+  color: rgba(0, 193, 255, 1);
+  font-family: "Poppins";
+  font-size: 10px;
+}
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+.mobilePage__heading {
+  color: rgb(25, 25, 25);
+  text-align: center;
+  margin: 0.8rem;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.mobilePage__content {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 50vh;
+  height: fit-content;
+  justify-content: center;
+}
+
+.mobilePage__left {
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mobilePage__title {
+  color: #2b2539;
+  width: 18rem;
+  font-size: 18px;
+  margin: 0rem 0rem 1rem 0rem;
+
+}
+
+.mobilePage__para {
+  margin: 0.6rem 4rem 0rem 2rem;
+  font-size: 12px;
+  color: #2b2539;
+  margin: 0rem;
+}
+
+.mobilePage__right {
+  width: 22rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.mobilePage__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appStore__download {
+  width: 117px;
+  height: 37px;
+  background-image: url("../Images/appStore.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 3px;
+  margin: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.playStore__download {
+  width: 120px;
+  height: 38px;
+  background-image: url("../Images/playstore.svg");
+  background-size: contain;
+  background-position: center;
+  border: none;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  margin: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.mobilePage__mobile {
+  width: 12rem;
+  height: 21rem;
+  margin: -4rem;
+}
+
+.mobilePage__footer {
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  background: #2b2539;
+}
+
+.mobile__footercontents {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_numbers {
+  font-size: 19px;
+  font-weight: 900;
+  font-family: "Poppins";
+}
+
+.footer_types {
+  color: rgba(0, 193, 255, 1);
+  font-family: "Poppins";
+  font-size: 12px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+.mobilePage__heading {
+  color: rgb(25, 25, 25);
+  text-align: center;
+  margin: 0.8rem;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.mobilePage__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50vh;
+  height: fit-content;
+  justify-content: center;
+}
+
+.mobilePage__left {
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mobilePage__title {
+  color: #2b2539;
+  width: 18rem;
+  font-size: 18px;
+  margin: 0rem 0rem 1rem 0rem;
+
+}
+
+.mobilePage__para {
+  font-size: 12px;
+  color: #2b2539;
+  margin: 0rem;
+}
+
+.mobilePage__right {
+  width: 22rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.mobilePage__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appStore__download {
+  width: 117px;
+  height: 37px;
+  background-image: url("../Images/appStore.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 3px;
+  margin: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.playStore__download {
+  width: 120px;
+  height: 38px;
+  background-image: url("../Images/playstore.svg");
+  background-size: contain;
+  background-position: center;
+  border: none;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  margin: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.mobilePage__mobile {
+  width: 12rem;
+  height: 21rem;
+  margin: -4rem;
+}
+
+.mobilePage__footer {
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  background: #2b2539;
+}
+
+.mobile__footercontents {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_numbers {
+  font-size: 19px;
+  font-weight: 900;
+  font-family: "Poppins";
+}
+
+.footer_types {
+  color: rgba(0, 193, 255, 1);
+  font-family: "Poppins";
+  font-size: 12px;
+}
+}

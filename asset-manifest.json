@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/apparelwala/static/css/main.9fcdb0cc.css",
-    "main.js": "/apparelwala/static/js/main.230be04e.js",
+    "main.css": "/apparelwala/static/css/main.4233c1ec.css",
+    "main.js": "/apparelwala/static/js/main.81b3dbda.js",
     "static/media/bg.png": "/apparelwala/static/media/bg.2f582938ac65ee2c3675.png",
     "static/media/Mask group 2.jpg": "/apparelwala/static/media/Mask group 2.dc024d1e858731844aa8.jpg",
     "static/media/mobileView.svg": "/apparelwala/static/media/mobileView.c358ac9b2820b2497b3cef3033b46339.svg",
@@ -22,11 +22,11 @@
     "static/media/googleIcon.svg": "/apparelwala/static/media/googleIcon.dcf1f1f48a9e4019563481f15784487e.svg",
     "static/media/b2b.svg": "/apparelwala/static/media/b2b.fffc6c7161725747500a84e2def69520.svg",
     "index.html": "/apparelwala/index.html",
-    "main.9fcdb0cc.css.map": "/apparelwala/static/css/main.9fcdb0cc.css.map",
-    "main.230be04e.js.map": "/apparelwala/static/js/main.230be04e.js.map"
+    "main.4233c1ec.css.map": "/apparelwala/static/css/main.4233c1ec.css.map",
+    "main.81b3dbda.js.map": "/apparelwala/static/js/main.81b3dbda.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fcdb0cc.css",
-    "static/js/main.230be04e.js"
+    "static/css/main.4233c1ec.css",
+    "static/js/main.81b3dbda.js"
   ]
 }
